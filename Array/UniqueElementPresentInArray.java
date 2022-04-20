@@ -7,7 +7,7 @@ public class UniqueElementPresentInArray {
 		
 	          
 	        //Initialize array   
-	        int [] arr = new int [] {1, 2, 8, 3, 2, 2, 2, 5, 1};   
+	        int [] arr = new int [] {1, 2, 2,1,2};   
 	       
 	        //Array fr will store frequencies of element  
 	        int [] fr = new int [arr.length];  
@@ -19,7 +19,7 @@ public class UniqueElementPresentInArray {
 	                if(arr[i] == arr[j]){  
 	                    count++;  
 	                    //To avoid counting same element again  
-	                    fr[j] = visited;  
+	                    fr[	j] = visited;  
 	                }  
 	            }  
 	            if(fr[i] != visited)  
